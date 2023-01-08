@@ -1,0 +1,210 @@
+$color1: #5448C8;
+$color2: #6DD0A5;
+$color3: #2D2D2D;
+$color4: #999999;
+$color5: #cfcf00;
+
+$background-color1: #f4eaea;
+
+.main-div {
+
+  .logo-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+  }
+
+  .second-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .third-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px;
+    width: 70%;
+  }
+}
+
+.logo-css {
+  height: 50px;
+}
+
+mat-card {
+  width: 260px;
+  height: 168px;
+  padding: 22px;
+  // border: 1px solid;
+  border-radius: 20px;
+  background-color: $background-color1;
+}
+
+
+.card-header {
+  font-family: "Rota-Black";
+  font-size: 31px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+.card-desc {
+  display: flex;
+  align-items: center;
+  padding-top: 6px;
+}
+
+.air-quality {
+  height: 105px;
+  width: 110px;
+  padding: 8px 2px 0% 2px;
+  color: white;
+  letter-spacing: 1px;
+  background-color: #6DD0A5;
+  font-size: 70px;
+  border-radius: 70px;
+  justify-content: center;
+  font-family: "Rota-Black";
+  display: flex;
+  align-items: center;
+}
+
+.arrow-up-icon,
+.arrow-down-icon {
+  font-size: 31px;
+  width: 32px;
+}
+
+.arrow-up-icon {
+  color: $color2;
+}
+
+.arrow-down-icon {
+  color: $color5;
+}
+
+.air-quality-div {
+  height: 106px;
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .value1 {
+    height: 53px;
+    border-bottom: 1px solid $color4;
+    justify-content: flex-start;
+  }
+
+  .value2 {
+    justify-content: flex-start;
+  }
+}
+
+.air-quality-val {
+  font-family: "Rota-Black";
+  font-size: 40px;
+  color: $color4;
+  width: 50px;
+  letter-spacing: 1px;
+}
+
+.flex-center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+// card 2
+.snowflake-icon,
+.fire-icon {
+  height: 18px;
+}
+
+.celcius-css {
+  font-size: 25px;
+}
+
+.temperature {
+  font-size: 63px;
+  background-color: #5448C8;
+
+  .celcius-css {
+    padding-top: 14px;
+  }
+}
+
+.temp-img-span {
+  width: 30px;
+  margin-top: -4px;
+}
+
+// card 3
+.audio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .card-desc {
+    padding-top: 0;
+    height: 60px;
+  }
+}
+
+.audio-count {
+  font-family: "Rota-Black";
+  font-size: 100px;
+  color: #5448C8;
+  padding-right: 20px;
+}
+
+.audio-status {
+  font-family: "Rota-Medium";
+  color: white;
+  border-radius: 11px;
+  font-size: 20px;
+  padding: 10px 15px 7px;
+  letter-spacing: 1px;
+  background-color: #6DD0A5;
+}
+
+.audio-total {
+  display: flex;
+  margin-top: -6px;
+  height: 55px;
+  padding-left: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .audio-total-label {
+    font-family: "Rota-Regular";
+    font-size: 18px;
+    color: $color4;
+  }
+
+  .audio-total-count {
+    font-family: "Rota-Black";
+    font-size: 40px;
+    color: $color4;
+  }
+}
+
+// card 4
+.display-card-bottom-div2 {
+  font-size: 25px;
+  padding: 0;
+  margin-top: 38px;
+}
+
+.display-card-bottom-div3 {
+  border-left: 1px solid $color4;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+.p-0 {
+  padding: 0%;
+}
